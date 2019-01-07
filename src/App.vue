@@ -1,21 +1,19 @@
 <template>
   <div id="app">
-    <navbar></navbar>
+    <gt-navbar></gt-navbar>
 
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    
   </div>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
-import navbar from './components/navbar.vue'
+import GtNavbar from './components/gt-navbar.vue'
 export default {
   name: 'app',
   components: {
     HelloWorld,
-    navbar
+    GtNavbar
   }
 }
 </script>

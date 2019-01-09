@@ -5,7 +5,7 @@
                 <p class="card-text">
                     We'll do it soon, the same "SOON" Windows does :D
                 </p>
-                <b-img src="/construction.png"></b-img>
+                <b-img src="/construction.png" style="width: 200px"></b-img>
             </b-card>
         </div>
     </b-container>

@@ -1,7 +1,6 @@
 <template>
     <div>
-    <gt-error
-        :input="errorData">
+    <gt-error :input="errorData">
     </gt-error>
     </div>
 </template>
@@ -15,9 +14,9 @@ export default {
     data: function() {
         return {
             errorData: {
-                title: 'Page\'s under construction',
-                message: 'We\'ll do it soon, the same \"SOON\" Windows does :D',
-                img:'/construction.png'}
+            title: ':(',
+            message: 'Unfortunately.. We couldn\'t find that page',
+            img:'/notFound.png'}
         }
     }
 }

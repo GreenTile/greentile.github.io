@@ -1,11 +1,11 @@
 <template>
     <b-container class="mt-5">
         <div>
-            <b-card title="Page's under construction" class="text-center">
+            <b-card :title="input.title" class="text-center">
                 <p class="card-text">
-                    We'll do it soon, the same "SOON" Windows does :D
+                    {{ input.message }}
                 </p>
-                <b-img src="/construction.png" style="width: 200px"></b-img>
+                <b-img :src="input.img" style="width: 200px"></b-img>
             </b-card>
         </div>
     </b-container>
@@ -13,7 +13,8 @@
 
 <script>
     export default {
-        name: "gt-loading"
+        name: "gt-error",
+        props: ['input']
     }
 </script>
 
